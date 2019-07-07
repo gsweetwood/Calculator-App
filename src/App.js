@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import NumButton from "./Components/NumButton";
-import CalcButton from "./CalcButton";
-import HistoryList from "./HistoryList";
+import CalcButton from "./Components/CalcButton";
+import HistoryList from "./Components/HistoryList";
 
 function App() {
   const [leftOperand, setLeftOperand] = useState("0");
